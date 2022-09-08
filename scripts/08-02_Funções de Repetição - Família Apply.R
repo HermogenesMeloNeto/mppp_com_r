@@ -1,6 +1,6 @@
 # funções de repetição - família apply
 # Uso da mapply com uma customização melhor, gerando títulos personalizados, 
-# incluse inserindo no título a palavra "Histogra da"
+# incluse inserindo no título a palavra "Histograma da"
 
 par(mfrow = c(2, 2)) # prepara a área de plotagem para receber 4 plots
 
