@@ -1,6 +1,6 @@
 ## QUI-QUADRADO COM R ##
 # PRIMEIRO, VAMOS CARREGAR OS PACOTES
-pacman::p_load(data.table, ggplot2)
+pacman::p_load(data.table, ggplot2, corrplot)
 
 # AGORA, A BASE DE DADOS CAR EVALUATION #
 breast_cancer <- fread('https://raw.githubusercontent.com/hugoavmedeiros/cp_com_r/master/bases_tratadas/breast_cancer.csv', stringsAsFactors = T)
